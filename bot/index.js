@@ -31,6 +31,10 @@ for (const folder of commandFolders) {
       console.log(
         `[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`
       );
+      console.log(`[DETAILS] ${command}`);
+      console.log(command);
+      console.log(command.data);
+      console.log(command.execute);
     }
   }
 }
