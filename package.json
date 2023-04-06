@@ -1,0 +1,27 @@
+{
+  "name": "task-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot used to manage Todo's, Habit Tracking, and reminders.",
+  "main": "bot/index.js",
+  "scripts": {
+    "start": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adampaulsackfield/task-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adampaulsackfield/task-bot/issues"
+  },
+  "homepage": "https://github.com/adampaulsackfield/task-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0"
+  }
+}
